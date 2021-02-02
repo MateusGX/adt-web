@@ -80,9 +80,9 @@
     color: #ccc;
 }
 
-.sectionHist > div > blockquote{
+.sectionHist>div>blockquote {
     font-style: italic;
-    background-color: rgba(0,0,0,0.2);
+    background-color: rgba(0, 0, 0, 0.2);
     border-left: 3px solid #888;
     color: #888;
     padding: 5px;
@@ -99,7 +99,7 @@
     justify-content: center;
 }
 
-@media only screen and (max-width: 828px) {
+@media only screen and (max-width: 1024px) {
     .header, .main, .footer {
         width: 100vw;
     }
@@ -114,9 +114,27 @@
     }
 }
 
+@media only screen and (max-width: 414px) {
+    .title h1 {
+        font-size: 1.7rem;
+    }
+    .title h4 {
+        font-size: 1rem;
+    }
+}
+
 @media only screen and (max-width: 375px) {
     .title h1 {
         font-size: 1.5rem;
+    }
+    .title h4 {
+        font-size: 0.8rem;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    .title h1 {
+        font-size: 1.4rem;
     }
     .title h4 {
         font-size: 0.8rem;
