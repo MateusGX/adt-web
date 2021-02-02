@@ -1,0 +1,133 @@
+.container {
+    min-height: 100vh;
+    padding: 0 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: url('/images/background.png');
+    background-repeat: repeat;
+}
+
+.header {
+    height: 34px;
+    width: 50vw;
+    background-color: #000;
+}
+
+.title {
+    font-family: 'Quicksand', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 60px;
+    width: 100%;
+    border-bottom: 2px solid black;
+}
+
+.title h1 {
+    font-size: 3rem;
+    color: #ccc;
+    text-transform: uppercase;
+    font-weight: 400;
+    margin: 0px;
+}
+
+.title h4 {
+    font-size: 1.2rem;
+    margin: 0px;
+    color: #999;
+    font-weight: 300;
+}
+
+.titleHistory {
+    background-color: black;
+    color: #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+}
+
+.titleHistory h3 {
+    margin: 0px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 400;
+    font-size: 2rem;
+}
+
+.main {
+    background-color: #202020;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 50vw;
+    min-height: calc(100vh - 68px - 34px);
+}
+
+.sectionHist {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 80%;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 300;
+    color: #ccc;
+}
+
+.sectionHist > div > blockquote{
+    font-style: italic;
+    background-color: rgba(0,0,0,0.2);
+    border-left: 3px solid #888;
+    color: #888;
+    padding: 5px;
+}
+
+.footer {
+    height: 68px;
+    width: 50vw;
+    background-color: #000;
+    color: #ccc;
+    display: flex;
+    font-family: 'Quicksand', sans-serif;
+    align-items: center;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 828px) {
+    .header, .main, .footer {
+        width: 100vw;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .title h1 {
+        font-size: 2.4rem;
+    }
+    .title h4 {
+        font-size: 1.2rem;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .title h1 {
+        font-size: 1.5rem;
+    }
+    .title h4 {
+        font-size: 0.8rem;
+    }
+}
+
+@media only screen and (max-width: 280px) {
+    .title h1 {
+        font-size: 0.95rem;
+    }
+    .title h4 {
+        font-size: 0.6rem;
+    }
+}
