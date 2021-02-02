@@ -62,6 +62,8 @@
   height: 68px;
   width: 50vw;
   background-color: #000;
+  color: #ccc;
+  display: flex;
   font-family: 'Quicksand', sans-serif;
   align-items: center;
   justify-content: center;
