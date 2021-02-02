@@ -11,7 +11,7 @@
 
 .header {
     height: 34px;
-    width: 50vw;
+    width: 60vw;
     background-color: #000;
 }
 
@@ -63,7 +63,7 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-    width: 50vw;
+    width: 60vw;
     min-height: calc(100vh - 68px - 34px);
 }
 
@@ -89,7 +89,7 @@
 
 .footer {
     height: 68px;
-    width: 50vw;
+    width: 60vw;
     background-color: #000;
     color: #ccc;
     display: flex;
