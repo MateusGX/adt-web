@@ -101,51 +101,60 @@
 
 @media only screen and (max-width: 1024px) {
     .header, .main, .footer {
-        width: 100vw;
+      width: 100vw;
     }
-}
-
-@media only screen and (max-width: 600px) {
+  }
+  
+  @media only screen and (max-width: 600px) {
     .title h1 {
-        font-size: 2.4rem;
+      font-size: 2.4rem;
     }
     .title h4 {
-        font-size: 1.2rem;
+      font-size: 1.2rem;
     }
-}
-
-@media only screen and (max-width: 414px) {
+  }
+  
+  @media only screen and (max-width: 414px) {
     .title h1 {
-        font-size: 1.7rem;
+      font-size: 1.7rem;
     }
     .title h4 {
-        font-size: 1rem;
+      font-size: 1rem;
     }
-}
-
-@media only screen and (max-width: 375px) {
+  }
+  
+  @media only screen and (max-width: 375px) {
     .title h1 {
-        font-size: 1.5rem;
+      font-size: 1.5rem;
     }
     .title h4 {
-        font-size: 0.8rem;
+      font-size: 0.8rem;
     }
-}
-
-@media only screen and (max-width: 360px) {
+  }
+  
+  @media only screen and (max-width: 360px) {
     .title h1 {
-        font-size: 1.4rem;
+      font-size: 1.1rem;
     }
     .title h4 {
-        font-size: 0.8rem;
+      font-size: 0.7rem;
     }
-}
-
-@media only screen and (max-width: 280px) {
+  }
+  
+  @media only screen and (max-width: 320px) {
     .title h1 {
-        font-size: 0.95rem;
+      font-size: 1.4rem;
     }
     .title h4 {
-        font-size: 0.6rem;
+      font-size: 0.8rem;
     }
-}
+  }
+  
+  @media only screen and (max-width: 280px) {
+    .title h1 {
+      font-size: 0.95rem;
+    }
+    .title h4 {
+      font-size: 0.6rem;
+    }
+  }
