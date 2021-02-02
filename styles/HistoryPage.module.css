@@ -98,6 +98,12 @@
     justify-content: center;
 }
 
+@media only screen and (max-width: 1247px) {
+    .header, .main, .footer {
+        width: 90vw;
+    }
+}
+
 @media only screen and (max-width: 1024px) {
     .header, .main, .footer {
         width: 100vw;
