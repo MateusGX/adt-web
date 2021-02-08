@@ -11,7 +11,8 @@
 
 .header {
     height: 34px;
-    width: 60vw;
+    width: 50vw;
+    max-width: 1000px;
     background-color: #000;
 }
 
@@ -56,6 +57,7 @@
     margin: 0px;
     font-family: 'Quicksand', sans-serif;
     font-weight: 400;
+    font-size: 2rem;
 }
 
 .main {
@@ -63,7 +65,8 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-    width: 60vw;
+    width: 50vw;
+    max-width: 1000px;
     min-height: calc(100vh - 68px - 34px);
 }
 
@@ -79,9 +82,9 @@
     color: #ccc;
 }
 
-.sectionHist>div>blockquote {
+.sectionHist > div > blockquote{
     font-style: italic;
-    background-color: rgba(0, 0, 0, 0.2);
+    background-color: rgba(0,0,0,0.2);
     border-left: 3px solid #888;
     color: #888;
     padding: 5px;
@@ -89,7 +92,8 @@
 
 .footer {
     height: 68px;
-    width: 60vw;
+    width: 50vw;
+    max-width: 1000px;
     background-color: #000;
     color: #ccc;
     display: flex;
@@ -98,13 +102,7 @@
     justify-content: center;
 }
 
-@media only screen and (max-width: 1247px) {
-    .header, .main, .footer {
-        width: 90vw;
-    }
-}
-
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 828px) {
     .header, .main, .footer {
         width: 100vw;
     }
@@ -119,39 +117,12 @@
     }
 }
 
-@media only screen and (max-width: 425px) {
-    .title h1 {
-        font-size: 1.7rem;
-    }
-    .title h4 {
-        font-size: 1rem;
-    }
-}
-
 @media only screen and (max-width: 375px) {
     .title h1 {
         font-size: 1.5rem;
     }
     .title h4 {
         font-size: 0.8rem;
-    }
-}
-
-@media only screen and (max-width: 360px) {
-    .title h1 {
-        font-size: 1.4rem;
-    }
-    .title h4 {
-        font-size: 0.8rem;
-    }
-}
-
-@media only screen and (max-width: 320px) {
-    .title h1 {
-        font-size: 1.1rem;
-    }
-    .title h4 {
-        font-size: 0.7rem;
     }
 }
 
