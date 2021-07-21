@@ -1,9 +1,8 @@
 import Head from "next/head";
 import styles from "../styles/HistoryPage.module.css";
-import History from "../components/history";
-import useSWR from "swr";
-import { useRouter } from "next/router";
 import Link from "next/link";
+import absoluteUrl from "next-absolute-url";
+
 export default function Slug() {
   return (
     <div className={styles.container}>
