@@ -3,7 +3,7 @@ import styles from "../styles/HistoryPage.module.css";
 import Link from "next/link";
 import absoluteUrl from "next-absolute-url";
 
-export default function Slug() {
+export default function Slug({ data }) {
   return (
     <div className={styles.container}>
       <Head>
