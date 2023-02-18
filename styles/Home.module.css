@@ -61,13 +61,15 @@
 }
 
 .footer {
-  height: 68px;
-  width: 50vw;
-  max-width: 1000px;
-  background-color: #000;
-  font-family: 'Quicksand', sans-serif;
-  align-items: center;
-  justify-content: center;
+    height: 68px;
+    width: 50vw;
+    max-width: 1000px;
+    background-color: #000;
+    color: #ccc;
+    display: flex;
+    font-family: 'Quicksand', sans-serif;
+    align-items: center;
+    justify-content: center;
 }
 
 @media only screen and (max-width: 828px) {
